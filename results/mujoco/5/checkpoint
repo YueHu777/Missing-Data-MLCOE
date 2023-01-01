@@ -1,0 +1,2 @@
+model_checkpoint_path: "120CSDI.pkl"
+all_model_checkpoint_paths: "120CSDI.pkl"
