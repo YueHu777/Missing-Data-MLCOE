@@ -580,13 +580,13 @@ def mask_missing_train_bm(data, missing_ratio):
     length_index = np.array(range(data.shape[0]))
     np.random.shuffle(length_index)
     idx = length_index[0: int(len(length_index) * missing_ratio)]
-    gt_masks[:, :3][idx] = 0
+    gt_masks[:, :29][idx] = 0
     np.random.shuffle(length_index)
     idx = length_index[0: int(len(length_index) * missing_ratio)]
-    gt_masks[:, 3:6][idx] = 0
+    gt_masks[:, 29:75][idx] = 0
     np.random.shuffle(length_index)
     idx = length_index[0: int(len(length_index) * missing_ratio)]
-    gt_masks[:, 6:][idx] = 0
+    gt_masks[:, 75:][idx] = 0
 
     observed_values = np.nan_to_num(observed_values)
     observed_masks = observed_masks.astype("float32")
