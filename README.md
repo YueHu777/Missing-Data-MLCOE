@@ -17,7 +17,7 @@ python3 train_SSSD.py
 # for CSDI
 python3 train_CSDI.py
 ```
-The full data sample requires GPU and a large memory. So I provided a small demo here which consists only 9 stocks. ( Three from each market.)\n
+The full data sample requires GPU and a large memory. So I provided a small demo here which consists only 9 stocks. ( Three from each market.)  
 In order to run the full sample, please set 
 ```
 "in_channels": 133,
@@ -34,7 +34,7 @@ python3 train_SSSD.py
 # for CSDI
 python3 train_CSDI.py
 ```
-The full data sample requires GPU and a large memory. So I provided a small demo here which consists only 9 stocks. (Same as part1b-f)\n
+The full data sample requires GPU and a large memory. So I provided a small demo here which consists only 9 stocks. (Same as part1b-f)  
 In order to run the full sample, please set 
 ```
 "in_channels": 133,
